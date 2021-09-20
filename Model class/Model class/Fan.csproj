@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Model_class</RootNamespace>
+    <UserSecretsId>5e21dd09-fd79-4668-8aef-03bd18cd11b5</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

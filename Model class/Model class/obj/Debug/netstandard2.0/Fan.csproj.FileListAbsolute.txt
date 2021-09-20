@@ -1,0 +1,9 @@
+C:\Users\alexa\Documents\GitHub\Model class\Model class\bin\Debug\netstandard2.0\Fan.deps.json
+C:\Users\alexa\Documents\GitHub\Model class\Model class\bin\Debug\netstandard2.0\Fan.dll
+C:\Users\alexa\Documents\GitHub\Model class\Model class\bin\Debug\netstandard2.0\Fan.pdb
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.dll
+C:\Users\alexa\Documents\GitHub\Model class\Model class\obj\Debug\netstandard2.0\Fan.pdb

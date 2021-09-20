@@ -1,0 +1,9 @@
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\bin\Release\netcoreapp3.1\modelLib.deps.json
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\bin\Release\netcoreapp3.1\modelLib.dll
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\bin\Release\netcoreapp3.1\modelLib.pdb
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.dll
+C:\Users\alexa\Documents\GitHub\Dr-Radio\DRRestService\modelLib\obj\Release\netcoreapp3.1\modelLib.pdb

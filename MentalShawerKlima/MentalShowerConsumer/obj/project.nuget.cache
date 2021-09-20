@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3mHZ4z9rinpLJoRf0cu5tuZq9Szyps8hE+qLd854xSR/MCZxU0Jog51opcHkLyBa808C/aLb/LNQO9sxjgXN1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\MentalShawerKlima\\MentalShowerConsumer\\MentalShowerConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

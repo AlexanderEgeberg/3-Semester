@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Axios Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>JS Axios Opgave <small>Lavet af AlexCE</small></h1>
+      <div class="jumbotron">
+        <h1>Velkommen til min axios hjemmeside</h1>
+      </div>
+
+    <!-- Get all request-->
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request</div>
+        <div class="panel-body">
+          <button class="btn btn-primary" id="btnRequestAll">Hent planter</button>
+          <button class="btn btn-warning" id="clearRequestAll">Clear</button>
+          <div class="panel-body" id="getAllResults"></div>
+        </div>
+      </div>
+
+    <!-- Get by ID request-->
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request by ID</div>
+        <div class="panel-body">
+          <input type="text" class="form-control" id="plantID" placeholder="Plante ID"/><br/>
+          <button class="btn btn-primary" id="btnRequestByID" >Hent plante</button>
+          <button class="btn btn-warning" id="clearRequestByID" >Clear</button>
+          <div class="panel-body" id="getResultByID"></div>
+        </div>
+      </div>
+
+    <!-- Get by substring request-->
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">GET Request by plante type</div>
+      <div class="panel-body">
+        <input type="text" class="form-control" id="plantType" placeholder="Plante Type"/><br/>
+        <button class="btn btn-primary" id="btnRequestByType" >Hent plante(r)</button>
+        <button class="btn btn-warning" id="clearRequestByType" >Clear</button>
+        <div class="panel-body" id="getResultByType"></div>
+      </div>
+    </div>
+
+    <!-- Post request-->
+
+       <div class="panel panel-primary">
+        <div class="panel-heading">POST Request</div>
+        <div class="panel-body">
+          <form class="form-inline" id="postForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="postPlantType" placeholder="Plante type">
+              <input type="text" class="form-control" id="postPlantName" placeholder="plante navn">
+              <input type="text" class="form-control" id="postMaxHeight" placeholder="Maks højde">
+              <input type="text" class="form-control" id="postPrice" placeholder="Pris">
+            </div>
+            <br/>
+            <br/>
+            <button type="submit" class="btn btn-primary" id="btnPost">Send</button>
+          </form>
+          <button class="btn btn-primary" id="clearPost">Clear</button>
+          <div class="panel-body" id="postResult"></div>
+        </div>
+      </div>
+
+      <!-- Delete request-->
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">Delete Request by ID </div>
+        <div class="panel-body">
+          <input type="text" class="form-control" id="deletePlantID" placeholder="Plante ID"/><br/>
+          <button class="btn btn-primary" id="btnDeleteByID" >Slet plante</button>
+        </div>
+      </div>
+
+
+
+
+      <div class="footer">
+        <p>&copy <a href="http://codingthesmartway.com" target="_blank">CodingTheSmartWay.com</a> | <a href="http://codingthesmartway.com/imprint" target="_blank">Imprint</a></p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>

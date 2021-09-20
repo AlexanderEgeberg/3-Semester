@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <title>Hello app</title>
+</head>
+
+<body>
+  <h1>Hello</h1>
+  <div id="app">
+    <input>
+    <button v-on:click="getAll()" class="btn btn-primary">Get call</button>
+    <div>
+      <ol v-if="recordData">
+        <li v-for="recordData in recordData">
+          {{recordData.title}}
+        </li>
+      </ol>
+    </div>
+
+    <input v-model="recordID"/>
+    <button v-on:click="HTTPDelete(recordID)">Delete</button>
+    <p>{{recordID}}</p>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>

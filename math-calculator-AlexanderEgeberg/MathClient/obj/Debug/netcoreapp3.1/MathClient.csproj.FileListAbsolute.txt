@@ -1,0 +1,13 @@
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.exe
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.deps.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.runtimeconfig.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.runtimeconfig.dev.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.dll
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\bin\Debug\netcoreapp3.1\MathClient.pdb
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.dll
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.pdb
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathClient\obj\Debug\netcoreapp3.1\MathClient.genruntimeconfig.cache

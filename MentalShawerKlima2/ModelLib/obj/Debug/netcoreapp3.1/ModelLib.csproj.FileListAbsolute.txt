@@ -1,0 +1,9 @@
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\bin\Debug\netcoreapp3.1\ModelLib.deps.json
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\bin\Debug\netcoreapp3.1\ModelLib.dll
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\bin\Debug\netcoreapp3.1\ModelLib.pdb
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.dll
+C:\Users\alexa\Documents\GitHub\MentalShawerKlima2\ModelLib\obj\Debug\netcoreapp3.1\ModelLib.pdb

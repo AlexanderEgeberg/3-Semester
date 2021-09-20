@@ -1,0 +1,13 @@
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.csprojAssemblyReference.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.AssemblyInfo.cs
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.exe
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.deps.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.runtimeconfig.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.runtimeconfig.dev.json
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.dll
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\bin\Debug\netcoreapp3.1\MathCalculator.pdb
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.dll
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.pdb
+C:\Users\alexa\Documents\GitHub\math-calculator-AlexanderEgeberg\MathCalculator\obj\Debug\netcoreapp3.1\MathCalculator.genruntimeconfig.cache

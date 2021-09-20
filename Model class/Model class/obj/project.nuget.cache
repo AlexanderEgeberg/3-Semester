@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xxf2pBeK73pLnKOSZQ4UbuUEdG1XBqNgGWsx8HyocGm+Tvm2ArLj7Hmq+5MuQbDoFR+AI5M/jlVkAIQW+jV9Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Model class\\Model class\\Fan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

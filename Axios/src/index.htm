@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Axios Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>JS Axios Demo <small>by CodingTheSmartWay.com</small></h1>
+      <div class="jumbotron">
+        <h1>Welcome To Axios</h1>
+        <h4>This applications uses Axios. Axios is a Promise-based HTTP client for JavaScript which can be used in your front-end application and in your Node.js backend. </h4>
+      </div>
+
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request</div>
+        <div class="panel-body">
+          <button class="btn btn-primary" id="btnRequest1">Get Todos</button>
+          <button class="btn btn-warning" id="clearRequest1">Clear</button>
+          <div class="panel-body" id="getResult1"></div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">GET Request with Paramaters</div>
+        <div class="panel-body">
+          <input type="text" class="form-control" id="todoId" placeholder="Todo ID ..."/><br/>
+          <button class="btn btn-primary" id="btnRequest2" >Get Todos</button>
+          <button class="btn btn-warning" id="clearRequest2" >Clear</button>
+          <div class="panel-body" id="getResult2"></div>
+        </div>
+      </div>
+
+
+       <div class="panel panel-primary">
+        <div class="panel-heading">POST Request</div>
+        <div class="panel-body">
+          <form class="form-inline" id="todoInputForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="todoTitle" placeholder="Name..">
+              <input type="text" class="form-control" id="quality" placeholder="quality..">
+              <input type="text" class="form-control" id="quantity" placeholder="quantity..">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnPost">Send</button>
+          </form><br/>
+          <button class="btn btn-warning" id="clearPost">Clear</button>
+          <div class="panel-body" id="postResult"></div>
+        </div>
+      </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">Delete Request</div>
+        <div class="panel-body">
+          <form class="form-inline" id="deleteRequestForm">
+            <div class="form-group">
+              <input type="text" class="form-control" id="todoTitle" placeholder="Name..">
+              <input type="text" class="form-control" id="quality" placeholder="quality..">
+              <input type="text" class="form-control" id="quantity" placeholder="quantity..">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnPost">Send</button>
+          </form><br/>
+          <button class="btn btn-warning" id="clearPost">Clear</button>
+          <div class="panel-body" id="postResult"></div>
+        </div>
+      </div>
+
+
+      <div class="footer">
+        <p>&copy <a href="http://codingthesmartway.com" target="_blank">CodingTheSmartWay.com</a> | <a href="http://codingthesmartway.com/imprint" target="_blank">Imprint</a></p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
