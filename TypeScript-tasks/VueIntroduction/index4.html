@@ -1,0 +1,37 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hello World!</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  
+  <body>
+    <div id="app">
+        <p v-once>{{title}}</p> <!-- med v-once vil elementet ikke opdateres hver gang title opdateres -->
+        <input type="text" v-on:input="ChangeTitle">
+        <p>{{SayHello()}} - <a v-bind:href="link">Henriks WebPage</a></p> 
+        <!-- 
+            Bemærk vi kan ikke bare benytte {{link}}. {{}} kan kun anvendes hvor der forventes text - ikke i alle html-elementer!.
+            Men vi kan binde link dynamisk ved at anvende v-bind direktivet på href   
+        -->
+    </div>
+  
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                title: "Hello world!",
+                link: 'http://heho-zealand.dk'
+            },
+            methods:{
+                ChangeTitle : function(event){
+                    this.title = event.target.value;
+                },
+                SayHello : function(){
+                    return this.title;
+                }
+            }
+        })
+    </script>
+  </body>
+  
+  </html>

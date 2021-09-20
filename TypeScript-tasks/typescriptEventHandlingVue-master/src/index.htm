@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Event handling</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <h1>Event handling</h1>
+  <div id="app" v-on:click="clicked" style="background-color: aquamarine;">
+    <input v-on:keyPress="keyPressed" v-on:keyDown="keyDown" v-on:keyUp="keyUp" v-on:focus="focusGained"
+      v-on:blur="focusLost" hint="some input, please" />
+    <button v-on:click="clicked">Click</button>
+    <div v-on:mouseOver="mouseOver" v-on:mouseOut="mouseOut"> {{ message }} </div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>

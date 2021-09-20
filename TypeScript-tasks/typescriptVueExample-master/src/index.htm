@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Vue.js example</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"/>
+</head>
+
+<body>
+  <h1>Vue.js examples</h1>
+
+  <div id="app">
+    {{message}}
+    {{ name }}
+    {{prime }}
+    {{ weekdays}}
+
+    {{ person.firstName}} {{person.lastName}}
+
+    <h3>Week days</h3>
+    <ul>
+      <li v-for="w in weekdays">
+        {{w}}
+      </li>
+    </ul>
+
+    <h3>Week days, with index</h3>
+    <ul>
+      <li v-for="(weekday, index) in weekdays">
+        {{weekday}} is day {{index+1}}
+      </li>
+    </ul>
+
+    <h3>Teachers</h3>
+    <ul>
+      <li v-for="teacher of teachers">
+        {{teacher.firstName}} {{teacher.lastName}}
+      </li>
+    </ul>
+
+    <h3>Iterating an object</h3>
+    <ul>
+      <li v-for="(value, name, index) in person">
+        {{index}} {{name}} {{value}}
+      </li>
+    </ul>
+
+    <h3>Event handling</h3>
+
+    <p>
+      {{ message }}
+      <button v-on:click="reverseMessage">Reverse Message</button>
+    </p>
+    <span v-on:mouseover="updateCounter">{{ counter}}</span>
+    <button v-on:mouseover="updateCounter">Update</button>
+
+    <h3>Input handling</h3>
+
+    <input type="checkbox" id="checkbox" v-model="checked">
+    <label for="checkbox">{{ checked }}</label>
+
+    <p v-if="checked">
+      <!-- conditional rendering -->
+      <input v-model.lazy="anotherMessage" placeholder="edit me">
+      Message is: {{ anotherMessage }}
+    </p>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Say Hello</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <input v-model="name" type="text" placeholder="Name" id="inputField">
+    <button v-on:click="sayHello(name)" id="button">Say hello</button>
+    <div id="outputField">{{ greeting }}</div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>
