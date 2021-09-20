@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "rsybzlulxCjHJ9/MSgD7x9jEOvMLb1akjqdDrazMwJJtrmoh0ivj1BUqF4iaxK92a1rMv2W2GHkjjJkSCzM7Qg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\Rejseplan-2.0\\UdpClientReceiver\\UdpClientReceiver\\UdpClientReceiver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\alexa\\Documents\\GitHub\\Rejseplan-2.0\\RejseplanenAPI\\RejseplanenLibrary\\RejseplanenLibrary.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\alexa\\Documents\\GitHub\\Rejseplan-2.0\\RejseplanenAPI\\RejseplanenLibrary\\RejseplanenLibrary.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
